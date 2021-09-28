@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/login/login",
     "pages/index/index",
     "pages/logs/logs",
     "pages/mine/mine"
@@ -7,28 +8,28 @@
   "tabBar": {
     "custom": false,
     "color": "#666",
-    "selectedColor": "#E42CBD",
+    "selectedColor": "#059ff5",
     "backgroundColor": "#fff",
     "borderStyle": "black",
     "list": [
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "/pages/images/tabbar/rank_in.png",
-        "selectedIconPath": "/pages/images/tabbar/rank.png"
+        "iconPath": "/pages/images/tabbar/home_item.png",
+        "selectedIconPath": "/pages/images/tabbar/home_item_selected.png"
       },
       {
         "pagePath": "pages/mine/mine",
         "text": "我的",
-        "iconPath": "/pages/images/tabbar/user.png",
-        "selectedIconPath": "/pages/images/tabbar/user_in.png"
+        "iconPath": "/pages/images/tabbar/home_mine.png",
+        "selectedIconPath": "/pages/images/tabbar/home_mine_selected.png"
       }
     ]
   },
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "yhy-test",
+    "navigationBarTitleText": "BAICDT LES",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
